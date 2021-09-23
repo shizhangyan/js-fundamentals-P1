@@ -15,6 +15,27 @@ function exercise12() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let isPrime = Boolean;
+  isPrime = true;
+
+  for(let i = 2; i<= 200; i++)
+  {
+      if(i>2){
+        for(let j = 2; j <= i-1; j++)
+        {
+          if( i % j === 0){
+            isPrime = false;
+            break;
+          }
+          else{
+              isPrime = true;
+          }
+        }
+      }
+      if( isPrime ){
+        console.log(i);
+      }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

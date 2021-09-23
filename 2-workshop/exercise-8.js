@@ -7,7 +7,16 @@ function exercise8() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
-
+  let sum = 0;
+  let num = 0;
+  while(num <= 5000)
+  {
+    if(num % 4 === 0)
+    {
+      sum += num;
+    }
+    num += 1;
+  }
   console.log(`The sum is ${sum}`);
   // -----------------------------------------------------------------
   // Write code between the lines (above)

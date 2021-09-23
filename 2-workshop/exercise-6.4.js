@@ -6,6 +6,13 @@ function exercise6_4() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  let num = 36;
+  while(num >= 0)
+  {
+    if(num % 2 === 0)
+      console.log(num);
+    num -= 1;
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
